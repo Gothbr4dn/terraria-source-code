@@ -175,10 +175,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Core">
-      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/System.Core.dll</HintPath>
+      <HintPath>System.Core.dll</HintPath>
     </Reference>
     <Reference Include="FNA">
-      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/FNA.dll</HintPath>
+      <HintPath>FNA.dll</HintPath>
     </Reference>
     <Reference Include="ReLogic" />
     <Reference Include="Ionic.Zip.CF" />
