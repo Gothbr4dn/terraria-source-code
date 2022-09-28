@@ -1,0 +1,201 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Terraria</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>8.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Terraria.GameContent.Creative.Content.Sacrifices.tsv" />
+    <None Remove="Terraria.IO.Data.ResourcePacksDefaultInfo.tsv" />
+    <None Remove="Terraria.Libraries.ReLogic.ReLogic.dll" />
+    <None Remove="Terraria.Libraries.DotNetZip.Ionic.Zip.CF.dll" />
+    <None Remove="Terraria.Libraries.JSON.NET.Newtonsoft.Json.dll" />
+    <None Remove="Terraria.Libraries.CsvHelper.CsvHelper.dll" />
+    <None Remove="Terraria.Libraries.NVorbis.NVorbis.dll" />
+    <None Remove="Terraria.Libraries.NVorbis.System.ValueTuple.dll" />
+    <None Remove="Terraria.Libraries.MP3Sharp.MP3Sharp.dll" />
+    <None Remove="Terraria.Libraries.Steamworks.NET.OSX.Steamworks.NET.dll" />
+    <None Remove="Terraria.Libraries.RailSDK.OSX.RailSDK.Net.dll" />
+    <None Remove="Terraria.Localization.Content.de-DE.json" />
+    <None Remove="Terraria.Localization.Content.de-DE.Town.json" />
+    <None Remove="Terraria.Localization.Content.en-US.Items.json" />
+    <None Remove="Terraria.Localization.Content.en-US.json" />
+    <None Remove="Terraria.Localization.Content.en-US.Town.json" />
+    <None Remove="Terraria.Localization.Content.es-ES.json" />
+    <None Remove="Terraria.Localization.Content.es-ES.Town.json" />
+    <None Remove="Terraria.Localization.Content.fr-FR.json" />
+    <None Remove="Terraria.Localization.Content.fr-FR.Town.json" />
+    <None Remove="Terraria.Localization.Content.it-IT.json" />
+    <None Remove="Terraria.Localization.Content.it-IT.Town.json" />
+    <None Remove="Terraria.Localization.Content.pl-PL.json" />
+    <None Remove="Terraria.Localization.Content.pl-PL.Town.json" />
+    <None Remove="Terraria.Localization.Content.pt-BR.json" />
+    <None Remove="Terraria.Localization.Content.pt-BR.Town.json" />
+    <None Remove="Terraria.Localization.Content.ru-RU.json" />
+    <None Remove="Terraria.Localization.Content.ru-RU.Town.json" />
+    <None Remove="Terraria.Localization.Content.zh-Hans.json" />
+    <None Remove="Terraria.Localization.Content.zh-Hans.Town.json" />
+    <None Remove="Terraria.Localization.Content.de-DE.Items.json" />
+    <None Remove="Terraria.Localization.Content.es-ES.Items.json" />
+    <None Remove="Terraria.Localization.Content.fr-FR.Items.json" />
+    <None Remove="Terraria.Localization.Content.it-IT.Items.json" />
+    <None Remove="Terraria.Localization.Content.pl-PL.Items.json" />
+    <None Remove="Terraria.Localization.Content.pt-BR.Items.json" />
+    <None Remove="Terraria.Localization.Content.ru-RU.Items.json" />
+    <None Remove="Terraria.Localization.Content.zh-Hans.Items.json" />
+    <None Remove="Terraria.Localization.Content.de-DE.Legacy.json" />
+    <None Remove="Terraria.Localization.Content.en-US.Legacy.json" />
+    <None Remove="Terraria.Localization.Content.es-ES.Legacy.json" />
+    <None Remove="Terraria.Localization.Content.fr-FR.Legacy.json" />
+    <None Remove="Terraria.Localization.Content.it-IT.Legacy.json" />
+    <None Remove="Terraria.Localization.Content.pl-PL.Legacy.json" />
+    <None Remove="Terraria.Localization.Content.pt-BR.Legacy.json" />
+    <None Remove="Terraria.Localization.Content.ru-RU.Legacy.json" />
+    <None Remove="Terraria.Localization.Content.zh-Hans.Legacy.json" />
+    <None Remove="Terraria.Localization.Content.de-DE.Projectiles.json" />
+    <None Remove="Terraria.Localization.Content.en-US.Projectiles.json" />
+    <None Remove="Terraria.Localization.Content.es-ES.Projectiles.json" />
+    <None Remove="Terraria.Localization.Content.fr-FR.Projectiles.json" />
+    <None Remove="Terraria.Localization.Content.it-IT.Projectiles.json" />
+    <None Remove="Terraria.Localization.Content.pl-PL.Projectiles.json" />
+    <None Remove="Terraria.Localization.Content.pt-BR.Projectiles.json" />
+    <None Remove="Terraria.Localization.Content.ru-RU.Projectiles.json" />
+    <None Remove="Terraria.Localization.Content.zh-Hans.Projectiles.json" />
+    <None Remove="Terraria.Localization.Content.de-DE.NPCs.json" />
+    <None Remove="Terraria.Localization.Content.en-US.NPCs.json" />
+    <None Remove="Terraria.Localization.Content.es-ES.NPCs.json" />
+    <None Remove="Terraria.Localization.Content.fr-FR.NPCs.json" />
+    <None Remove="Terraria.Localization.Content.it-IT.NPCs.json" />
+    <None Remove="Terraria.Localization.Content.pl-PL.NPCs.json" />
+    <None Remove="Terraria.Localization.Content.pt-BR.NPCs.json" />
+    <None Remove="Terraria.Localization.Content.ru-RU.NPCs.json" />
+    <None Remove="Terraria.Localization.Content.zh-Hans.NPCs.json" />
+    <None Remove="Terraria.Localization.Content.en-US.Game.json" />
+    <None Remove="Terraria.Localization.Content.de-DE.Game.json" />
+    <None Remove="Terraria.Localization.Content.es-ES.Game.json" />
+    <None Remove="Terraria.Localization.Content.fr-FR.Game.json" />
+    <None Remove="Terraria.Localization.Content.it-IT.Game.json" />
+    <None Remove="Terraria.Localization.Content.pl-PL.Game.json" />
+    <None Remove="Terraria.Localization.Content.pt-BR.Game.json" />
+    <None Remove="Terraria.Localization.Content.ru-RU.Game.json" />
+    <None Remove="Terraria.Localization.Content.zh-Hans.Game.json" />
+    <None Remove="Terraria.GameContent.WorldBuilding.Configuration.json" />
+    <None Remove="Terraria.GameContent.Metadata.MaterialData.Materials.json" />
+    <None Remove="Terraria.GameContent.Metadata.MaterialData.Tiles.json" />
+    <None Remove="Microsoft.Xna.Framework.RuntimeProfile" />
+    <EmbeddedResource Include="Terraria.GameContent.Creative.Content.Sacrifices.tsv" />
+    <EmbeddedResource Include="Terraria.IO.Data.ResourcePacksDefaultInfo.tsv" />
+    <EmbeddedResource Include="Terraria.Libraries.ReLogic.ReLogic.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.DotNetZip.Ionic.Zip.CF.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.JSON.NET.Newtonsoft.Json.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.CsvHelper.CsvHelper.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.NVorbis.NVorbis.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.NVorbis.System.ValueTuple.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.MP3Sharp.MP3Sharp.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.Steamworks.NET.OSX.Steamworks.NET.dll" />
+    <EmbeddedResource Include="Terraria.Libraries.RailSDK.OSX.RailSDK.Net.dll" />
+    <EmbeddedResource Include="Terraria.Localization.Content.de-DE.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.de-DE.Town.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.en-US.Items.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.en-US.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.en-US.Town.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.es-ES.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.es-ES.Town.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.fr-FR.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.fr-FR.Town.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.it-IT.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.it-IT.Town.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pl-PL.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pl-PL.Town.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pt-BR.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pt-BR.Town.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.ru-RU.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.ru-RU.Town.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.zh-Hans.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.zh-Hans.Town.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.de-DE.Items.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.es-ES.Items.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.fr-FR.Items.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.it-IT.Items.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pl-PL.Items.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pt-BR.Items.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.ru-RU.Items.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.zh-Hans.Items.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.de-DE.Legacy.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.en-US.Legacy.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.es-ES.Legacy.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.fr-FR.Legacy.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.it-IT.Legacy.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pl-PL.Legacy.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pt-BR.Legacy.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.ru-RU.Legacy.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.zh-Hans.Legacy.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.de-DE.Projectiles.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.en-US.Projectiles.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.es-ES.Projectiles.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.fr-FR.Projectiles.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.it-IT.Projectiles.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pl-PL.Projectiles.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pt-BR.Projectiles.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.ru-RU.Projectiles.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.zh-Hans.Projectiles.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.de-DE.NPCs.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.en-US.NPCs.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.es-ES.NPCs.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.fr-FR.NPCs.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.it-IT.NPCs.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pl-PL.NPCs.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pt-BR.NPCs.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.ru-RU.NPCs.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.zh-Hans.NPCs.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.en-US.Game.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.de-DE.Game.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.es-ES.Game.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.fr-FR.Game.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.it-IT.Game.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pl-PL.Game.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.pt-BR.Game.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.ru-RU.Game.json" />
+    <EmbeddedResource Include="Terraria.Localization.Content.zh-Hans.Game.json" />
+    <EmbeddedResource Include="Terraria.GameContent.WorldBuilding.Configuration.json" />
+    <EmbeddedResource Include="Terraria.GameContent.Metadata.MaterialData.Materials.json" />
+    <EmbeddedResource Include="Terraria.GameContent.Metadata.MaterialData.Tiles.json" />
+    <EmbeddedResource Include="Microsoft.Xna.Framework.RuntimeProfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FNA">
+      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/FNA.dll</HintPath>
+    </Reference>
+    <Reference Include="ReLogic" />
+    <Reference Include="Ionic.Zip.CF" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="CsvHelper" />
+    <Reference Include="Steamworks.NET" />
+    <Reference Include="RailSDK.Net" />
+    <Reference Include="SteelSeriesEngineWrapper">
+      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/SteelSeriesEngineWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="MP3Sharp" />
+    <Reference Include="NVorbis" />
+  </ItemGroup>
+</Project>
