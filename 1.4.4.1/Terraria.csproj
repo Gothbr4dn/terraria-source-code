@@ -175,10 +175,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Core">
-      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/System.Core.dll</HintPath>
+      <HintPath>System.Core.dll</HintPath>
     </Reference>
     <Reference Include="FNA">
-      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/FNA.dll</HintPath>
+      <HintPath>FNA.dll</HintPath>
     </Reference>
     <Reference Include="ReLogic" />
     <Reference Include="Ionic.Zip.CF" />
@@ -187,13 +187,13 @@
     <Reference Include="Steamworks.NET" />
     <Reference Include="RailSDK.Net" />
     <Reference Include="SteelSeriesEngineWrapper">
-      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/SteelSeriesEngineWrapper.dll</HintPath>
+      <HintPath>SteelSeriesEngineWrapper.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization">
-      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/System.Runtime.Serialization.dll</HintPath>
+      <HintPath>System.Runtime.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase">
-      <HintPath>../../Library/Application Support/Steam/steamapps/common/Terraria/Terraria.app/Contents/Resources/WindowsBase.dll</HintPath>
+      <HintPath>WindowsBase.dll</HintPath>
     </Reference>
     <Reference Include="MP3Sharp" />
     <Reference Include="NVorbis" />
