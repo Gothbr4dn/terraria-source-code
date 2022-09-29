@@ -6,4 +6,6 @@ I do not condone piracy, I only want to make it more accessible.
 
 I Don't Think the game is playable if you comile it but i might be wrong
 
+[Mobile Source code](https://github.com/MikeyIsBaeYT/Terraria-Mobile-Source-Code)
+
 Decomplied with ILSpy
